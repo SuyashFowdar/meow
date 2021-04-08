@@ -1,22 +1,38 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, 'Courier New', monospace;
 }
 
 $all:('', 0, 4000px);
 $sm:('-sm', 0, 767px);
-$lg:('-lg', 768px, 4000px);
+$md:('-md', 768px, 991px);
+$lg:('-lg', 992px, 4000px);
 
 $breakpoints: ($all, $sm, $lg);
+
+@mixin sm {
+  @media screen and (min-width: nth($sm, 2)) and (max-width: nth($sm, 3)) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (min-width: nth($md, 2)) and (max-width: nth($md, 3)) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: nth($lg, 2)) and (max-width: nth($lg, 3)) {
+    @content;
+  }
+}
 
 @each $breakpoint in $breakpoints {
   $point: nth($breakpoint, 1);
@@ -28,12 +44,12 @@ $breakpoints: ($all, $sm, $lg);
       display: none;
     }
 
-    .column#{$point},
+    .col#{$point},
     .row#{$point} {
       display: flex;
     }
 
-    .column#{$point} {
+    .col#{$point} {
       flex-direction: column;
     }
 
@@ -93,4 +109,22 @@ $breakpoints: ($all, $sm, $lg);
       }
     }
   }
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.link {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
