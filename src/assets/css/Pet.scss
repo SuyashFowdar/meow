@@ -1,0 +1,46 @@
+$all:('', 0, 4000px);
+$sm:('-sm', 0, 767px);
+$md:('-md', 768px, 991px);
+$lg:('-lg', 992px, 4000px);
+
+$breakpoints: ($all, $sm, $lg);
+
+@mixin sm {
+  @media screen and (min-width: nth($sm, 2)) and (max-width: nth($sm, 3)) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (min-width: nth($md, 2)) and (max-width: nth($md, 3)) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: nth($lg, 2)) and (max-width: nth($lg, 3)) {
+    @content;
+  }
+}
+
+.pet-item {
+  height: calc((100vh - 144px) / 2);
+
+  @include lg {
+    width: 25%;
+  }
+
+  @include md {
+    width: 50%;
+  }
+
+  @include sm {
+    width: 100%;
+  }
+
+  .breed {
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
