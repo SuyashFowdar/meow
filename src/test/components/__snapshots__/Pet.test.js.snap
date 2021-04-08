@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  className="pet-item bg-cover col main-end"
+  href="/pet/undefined"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <div
+    className="breed"
+  />
+</a>
+`;
