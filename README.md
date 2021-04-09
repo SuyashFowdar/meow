@@ -28,6 +28,7 @@ The following commands must be ran on terminal/CMD:
 - In your desired directory, run `git clone https://github.com/krishnzzz/meow`.
 - Then run `cd meow`.
 - From the meow project directory the following scripts can be run.
+- Run `npm install` to install all dependencies for the app to run in local
 
 
 ## Available Scripts
