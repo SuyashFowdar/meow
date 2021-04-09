@@ -23,6 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage" : "https://krishnzzz.github.io/meow/",
   "eslintConfig": {
     "extends": [
       "react-app",
