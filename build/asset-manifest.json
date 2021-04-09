@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.30b18c41.chunk.css",
-    "main.js": "/static/js/main.e0f8a299.chunk.js",
-    "main.js.map": "/static/js/main.e0f8a299.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.df356401.js",
-    "runtime-main.js.map": "/static/js/runtime-main.df356401.js.map",
-    "static/js/2.c6f8d62d.chunk.js": "/static/js/2.c6f8d62d.chunk.js",
-    "static/js/2.c6f8d62d.chunk.js.map": "/static/js/2.c6f8d62d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.30b18c41.chunk.css.map": "/static/css/main.30b18c41.chunk.css.map",
-    "static/js/2.c6f8d62d.chunk.js.LICENSE.txt": "/static/js/2.c6f8d62d.chunk.js.LICENSE.txt"
+    "main.css": "/meow/static/css/main.30b18c41.chunk.css",
+    "main.js": "/meow/static/js/main.e0f8a299.chunk.js",
+    "main.js.map": "/meow/static/js/main.e0f8a299.chunk.js.map",
+    "runtime-main.js": "/meow/static/js/runtime-main.1a4c9f61.js",
+    "runtime-main.js.map": "/meow/static/js/runtime-main.1a4c9f61.js.map",
+    "static/js/2.c6f8d62d.chunk.js": "/meow/static/js/2.c6f8d62d.chunk.js",
+    "static/js/2.c6f8d62d.chunk.js.map": "/meow/static/js/2.c6f8d62d.chunk.js.map",
+    "index.html": "/meow/index.html",
+    "static/css/main.30b18c41.chunk.css.map": "/meow/static/css/main.30b18c41.chunk.css.map",
+    "static/js/2.c6f8d62d.chunk.js.LICENSE.txt": "/meow/static/js/2.c6f8d62d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.df356401.js",
+    "static/js/runtime-main.1a4c9f61.js",
     "static/js/2.c6f8d62d.chunk.js",
     "static/css/main.30b18c41.chunk.css",
     "static/js/main.e0f8a299.chunk.js"
