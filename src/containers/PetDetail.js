@@ -8,7 +8,6 @@ const PetDetail = () => {
   const [pet, setPet] = useState({});
   const pets = useSelector((state) => state.pets);
   useEffect(() => {
-    console.log('Detail');
     for (let i = 0; i < pets.length; i += 1) {
       if (pets[i].pet.id === id) {
         setPet(pets[i]);
