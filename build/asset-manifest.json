@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/meow/static/css/main.30b18c41.chunk.css",
+    "main.js": "/meow/static/js/main.995b386e.chunk.js",
+    "main.js.map": "/meow/static/js/main.995b386e.chunk.js.map",
+    "runtime-main.js": "/meow/static/js/runtime-main.1a4c9f61.js",
+    "runtime-main.js.map": "/meow/static/js/runtime-main.1a4c9f61.js.map",
+    "static/js/2.118dc731.chunk.js": "/meow/static/js/2.118dc731.chunk.js",
+    "static/js/2.118dc731.chunk.js.map": "/meow/static/js/2.118dc731.chunk.js.map",
+    "index.html": "/meow/index.html",
+    "static/css/main.30b18c41.chunk.css.map": "/meow/static/css/main.30b18c41.chunk.css.map",
+    "static/js/2.118dc731.chunk.js.LICENSE.txt": "/meow/static/js/2.118dc731.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a4c9f61.js",
+    "static/js/2.118dc731.chunk.js",
+    "static/css/main.30b18c41.chunk.css",
+    "static/js/main.995b386e.chunk.js"
+  ]
+}

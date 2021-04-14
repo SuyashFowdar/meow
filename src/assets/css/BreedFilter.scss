@@ -1,0 +1,26 @@
+.nav-container {
+  max-width: 100vw;
+  overflow-x: auto;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  padding-top: 75px;
+  background-color: rgb(50, 50, 50);
+
+  & > div:first-child {
+    margin-left: 10px;
+    color: white;
+  }
+
+  .nav {
+    color: #fafafa;
+    padding: 5px 10px;
+    height: 100%;
+    white-space: nowrap;
+    font-size: 16px;
+  }
+
+  .selected-nav,
+  .nav:hover {
+    color: white;
+    font-weight: bold;
+  }
+}

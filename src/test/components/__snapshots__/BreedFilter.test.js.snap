@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="row cross-center nav-container"
+>
+  <div>
+    Breed: 
+  </div>
+  <button
+    className="link nav selected-nav"
+    onClick={[Function]}
+    type="button"
+  >
+    All
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Abyssinian
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Aegean
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    American Shorthair
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    British Shorthair
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Devon Rex
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Exotic Shorthair
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Maine Coon
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Ragdoll
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Scottish Fold
+  </button>
+  <button
+    className="link nav "
+    onClick={[Function]}
+    type="button"
+  >
+    Persian
+  </button>
+</div>
+`;

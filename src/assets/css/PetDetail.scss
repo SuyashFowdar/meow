@@ -1,0 +1,97 @@
+$all:('', 0, 4000px);
+$sm:('-sm', 0, 767px);
+$md:('-md', 768px, 991px);
+$lg:('-lg', 992px, 4000px);
+
+$breakpoints: ($all, $sm, $lg);
+
+@mixin sm {
+  @media screen and (min-width: nth($sm, 2)) and (max-width: nth($sm, 3)) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (min-width: nth($md, 2)) and (max-width: nth($md, 3)) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: nth($lg, 2)) and (max-width: nth($lg, 3)) {
+    @content;
+  }
+}
+
+.pet-detail {
+  height: 100vh;
+  width: 100vw;
+
+  @include lg {
+    background-position: right center;
+  }
+
+  @include md {
+    background-position: right center;
+  }
+
+  @include sm {
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: auto;
+  }
+
+  .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+
+    @include lg {
+      margin: 20px;
+      height: 90vh;
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    @include md {
+      margin: 20px;
+      height: 90vh;
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    @include sm {
+      width: 100vw;
+      margin-top: 225vh;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .h-100 {
+      max-height: 100%;
+
+      @include lg {
+        overflow-y: auto;
+      }
+
+      @include md {
+        overflow-y: auto;
+      }
+    }
+
+    .elem {
+      padding: 5px 0;
+
+      & > div:first-child {
+        min-width: 30%;
+        width: 30%;
+        text-transform: capitalize;
+      }
+
+      & > div:last-child {
+        width: 70%;
+        word-break: break-all;
+      }
+    }
+  }
+}
